@@ -1,0 +1,414 @@
+@import "uikit.css";
+/* HEADER START */
+.uk-navbar-nav > li > a {
+    height: 55px;
+}
+
+.five {
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 14px;
+    bottom: -5;
+    left: 25;
+    background:red;
+    color:white;
+    width: 14px;
+    height: 14px;
+}
+.fa-shopping-basket{
+    position: relative;
+
+}
+.header {
+    border-bottom: 2px solid silver;
+}
+.nav-form  {
+    border: 2px solid silver;
+    border-radius: 2px;
+    width: 250px;
+}
+.nav-form > input {
+    border: none;
+    font-size: 13px;
+    padding: 0;
+
+}
+.nav-form > button {
+    border: none;
+    color: blue;
+    padding-right: 8px;
+}
+.logo {
+    padding: 0;
+}
+.nav-number {
+    text-align: left;
+}
+.nav-number-bottom {
+    border-bottom: 1px dotted blue;
+    font-size: 13px;
+}
+.nav-number > div > span {
+    font-size: 15px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+.search-field{
+    padding: 20 40 0;
+
+}
+.nav-middle {
+    width: 200px;
+    line-height: 1.7;
+    padding: 0 40 10;
+    font-style: Arial;
+    text-align: left;
+}
+.nav-middle > span > i {
+    float: left;
+    font-size: 30px;
+    color: black;
+    padding-right: 15px;
+    margin-top: 6px;
+
+}
+
+.up > a {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.down {
+    color: silver;
+    font-style: Arial;
+    font-size: 14px;
+}
+.nav-right {
+    width: 200px;
+    line-height: 1.7;
+    height: 56px;
+    margin-top: 15px;
+    padding-left: 15px !important;
+}
+.nav-left {
+    align-items: center;
+}
+.end {
+    padding-left: 0;
+    font-size: 14px;
+    color: silver;
+}
+.nav-right > span > i{
+    float: left;
+    font-size: 30px;
+    color: black;
+}
+.up1 > a {
+    color: black;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.up1 {
+    width: 160px;
+}
+.down1 {
+    width: 160px;
+}
+#five {
+    position: absolute;
+}
+.fa-bars {
+    margin-right: 13px;
+    font-size: 20px;
+    color: blue;
+}
+.navigation-panel{
+    border-bottom: 25px solid silver;
+
+}
+.uk-navbar.navbar-main-top {
+    background: white;
+    align-content: center;
+}
+.uk-navbar-nav > li > a {
+    text-transform: none;
+    color: black;
+}
+#left-nav {
+    font-weight: bold;
+    padding-right: 30px;
+    border-right: 2px solid silver;
+    width: 200px;
+    padding-left: 0;
+    text-align: left;
+}
+#right-nav {
+    text-align: right;
+    padding: 0 0 0 60;
+    border-left: 2px solid silver;
+}
+
+.fa-user-circle-o {
+    padding-right: 10px;
+    color:blue;
+}
+.middle-nav {
+    padding: 0 10 0 10 ;
+}
+.right-nav {
+    text-align: right;
+}
+.uk-form-width-small {
+    width: 170px;
+}
+.logo-panel div:nth-child(1){
+    text-align: left;
+
+}
+.logo-panel div:nth-child(3){
+    text-align: left;
+}
+
+.logo-panel{
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr 1fr 180px;
+    grid-template-rows:auto;
+    align-items: center;
+    text-align: center;
+    min-width: 1200px;
+}
+
+.number-a a {
+    color: blue;
+    font-size: 11px;
+    text-align: left;
+    padding-right: 30px;
+}
+.number-a span{
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.favorite {
+    min-height: 50px;
+    align-items: center;
+}
+
+.favorite svg {
+    min-height: 30px;
+    min-width: 30px;
+    padding-top: 5px;
+}
+
+/* HEADER END */
+/* NAV-PANEL START */
+.card-of-product {
+    height: 800px;
+}
+.navigation-panel {
+    border-bottom: 3px solid #f4f4f4;
+    color: black;
+}
+.nav-panel {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    max-width: 1200px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.first-item {
+    font-weight: bold;
+}
+
+.nav-panel div {
+    min-width: 120px;
+    min-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto ;
+    align-items: center;
+
+}
+.nav-panel div:nth-child(1){
+    min-width: 180px;
+    border-right: 3px solid #f4f4f4;
+}
+.nav-panel div:nth-child(8){
+    min-width: 180px;
+    border-left: 3px solid #f4f4f4;
+}
+.nav-panel a {
+    border-bottom: 1px dotted silver;
+    text-decoration: none;
+    color: black;
+}
+.nav-panel div:nth-last-child(5){
+    width: expand
+}
+.uk-card-body {
+    padding:0;
+}
+/* HEADER END  */
+
+/* CARD PRODUCT START! */
+.bg-title-top-img {
+    background: #f4f4f4;
+}
+.slider-container {
+    width: 50%;
+    height: 400px;
+}
+.title-of-product {
+    background: #f4f4f4;
+    position: relative;
+}
+.bredcrumb-container {
+    background: #f4f4f4;
+    width: auto;
+    height: 60px;
+}
+#active-bredcrumb > span {
+    color: black;
+}
+.first-bredcrumb{
+    padding: 20 0 20 0;
+}
+.title-of-product > div {
+
+}
+.title-img-product {
+    color: black;
+    font-size: 20px;
+    padding: 20 0 20 0;
+}
+.product-slider {
+    width: 450px;
+    height: 250px;
+    padding: 20 0 80 0;
+    position: absolute;
+
+}
+.imgs-under-slider {
+    top: 350px;
+}
+.changes-product{
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 850px;
+}
+
+.first-div-card-product {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+}
+.first-block-card {
+    border-bottom: 2px solid silver;
+    position: relative;
+    height: 50px;
+    margin: 0 30 0 30;
+}
+#first-text-card {
+    top: 20px;
+    left: 0px;
+    position: absolute;
+    color: green;
+}
+#first-text-card::before {
+    content: "•";
+    color: red;
+}
+#share {
+    position: absolute;
+    left: 250px;
+    top: 25px;
+    color: silver;
+}
+#heart {
+    left: 275px;
+    top:25px;
+    position: absolute;
+    color: silver;
+}
+
+#size-bike {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+}
+.size-text {
+    color: black;
+    font-size: 13px;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin: 10 7 0 7;
+    width: 70px;
+    padding: 4;
+}
+
+.size-text:nth-child(2) {
+    margin-left: 30px;
+}
+.size-text:hover{
+    color: blue;
+}
+.text-tbc {
+    color: black;
+    font-size: 14px;
+}
+.three-block-card {
+    display: inline-table;
+    margin: 20 0 0 30;
+}
+.three-block-card:nth-child(1+1){
+    color: red;
+}
+.colors {
+    display: inline-flex;
+    margin-left: 20px;
+}
+.green {
+    background: green;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.black {
+    background: black;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.white {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.red {
+    background: red;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.blue {
+    background: blue;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
